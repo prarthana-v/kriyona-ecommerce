@@ -1,0 +1,42 @@
+export const teamMembers = [
+  {
+    name: "Yogesh Narola",
+    title: "Traveling Salesman: (Growth & Alliances)",
+    ex: "Ex: Category Head - Snapdeal | Diamond Consulting",
+    entre: "Entre: eSportsBuy.com | Fitterati",
+    alum: "Alum: IIT Delhi",
+    image: "images/me.jpeg",
+  },
+  {
+    name: "Nayan Bhisara",
+    title: "Resident Hustler: (Operations, Finance)",
+    ex: "Ex: Compass PLC | Accentiv’ India | Sulekha.com",
+    entre: "Entre: AdSpurt Digital",
+    alum: "Street Hawk + Knight Rider",
+    image: "images/me.jpeg",
+  },
+  {
+    name: "Kirtan Narola",
+    title: "Growth Hacker: Product & Marketing",
+    ex: "Ex: Marketing Manager - Gaadi.com",
+    entre: "Entre: Secret Wish | AdSpurt Digital",
+    alum: "",
+    image: "images/me.jpeg",
+  },
+  {
+    name: "Sujal Tank",
+    title: "CEO: Problem Solver",
+    ex: "Ex: CEO - Gaadi.com | Cardekho | Booz & Co.",
+    entre: "Entre: Feather Labs",
+    alum: "Alum: IIT-Delhi | IIM-Ahmedabad",
+    image: "images/me.jpeg",
+  },
+  {
+    name: "Prarthana Vaghani",
+    title: "CEO: Problem Solver",
+    ex: "Ex: CEO - Gaadi.com | Cardekho | Booz & Co.",
+    entre: "Entre: Feather Labs",
+    alum: "Alum: IIT-Delhi | IIM-Ahmedabad",
+    image: "images/me.jpeg",
+  },
+];

@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.courier {
+  font-family: "Courier Prime", monospace;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+ul li {
+  list-style: none;
+}
+.text-b1 {
+  color: #0d0f06;
+}
+.text-b2 {
+  color: #1a1b1f;
+}
+.text-w1 {
+  color: #f7f9f0;
+}
+.text-w2 {
+  color: aliceblue;
+}
+.text-w3 {
+  color: #eeeff3;
+}
+.fs-13 {
+  font-size: 13px; /* 14px / 16 */
+}
+.fs-14 {
+  font-size: 14px; /* 14px / 16 */
+}
+.fs-15 {
+  font-size: 15px; /* 14px / 16 */
+}
+.fs-16 {
+  font-size: 16px; /* 16px / 16 */
+}
+.fs-17 {
+  font-size: 17px; /* 15px / 16 */
+}
+.fs-18 {
+  font-size: 18px; /* 18px / 16 */
+}
+.fs-19 {
+  font-size: 19px; /* 17px / 16 */
+}
+.fs-69 {
+  font-size: 69px; /* 60px / 16 */
+}
+.fs-20 {
+  font-size: 20px; /* 20px / 16 */
+}
+.fs-21 {
+  font-size: 21px; /* 20px / 16 */
+}
+.fs-22 {
+  font-size: 22px;
+}
+.fs-23 {
+  font-size: 23px; /* 23px / 16 */
+}
+.fs-26 {
+  font-size: 26px; /* 26px / 16 */
+}
+.fs-30 {
+  font-size: 30px; /* 30px / 16 */
+}
+.fs-33 {
+  font-size: 2.0625rem; /* 33px / 16 */
+}
+.fs-35 {
+  font-size: 2.1875rem; /* 35px / 16 */
+}
+.fs-42 {
+  font-size: 42px; /* 42px / 16 */
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.red-100 {
+  color: #df4c2d;
+}
+.red-b {
+  color: #be1432;
+}
+.grey-100 {
+  color: #959cb1;
+}
+.grey-200 {
+  color: #424f5f;
+}
+.p-all {
+  padding: 30px 50px;
+}
+.b-black {
+  border: 0.1px solid #000 !important;
+}
+.bb- {
+  border-block: 1px solid #000;
+}
+.br- {
+  border-right: 1px solid #000;
+}
+.bl- {
+  border-left: 1px solid #000;
+}
+.bu- {
+  border-top: 1px solid #000;
+}
+
+.bd- {
+  border-bottom: 1px solid #000;
+}
+.bg-gradient-btn {
+  background: linear-gradient(
+    100deg,
+    rgb(255, 244, 232) 5%,
+    rgb(255, 228, 255) 98%
+  );
+}
+.bg-gradient-2 {
+  background: linear-gradient(100deg, #edf0f1 35%, #efe8f3 53%);
+}
+.bg-gradient-r {
+  background: radial-gradient(circle, #dddddd 20%, #f2f2f2 60%, #ffffff 100%);
+}
+.bg-gradient-a {
+  background: radial-gradient(
+    circle,
+    #f9f9f9 20%,
+    /* Very light whitish gray */ #f2f2f2 40%,
+    /* Slightly darker whitish gray */ #e0e6ef 60%,
+    /* Light blue-gray from the illustration */ #efe8f3 80%,
+    /* Soft lavender tone */ #ffe4ff 100% /* Light pastel pink */
+  );
+}
+.bg-gradient-bred {
+  background: linear-gradient(
+    100deg,
+    rgb(255, 230, 230) 5%,
+    /* Soft light pink */ rgb(255, 180, 180) 98% /* Muted warm red */
+  );
+}
+.bg-gradient-pink {
+  background: radial-gradient(
+    circle,
+    rgba(255, 250, 240, 1) 0%,
+    rgba(255, 240, 250, 0.6) 30%,
+    rgba(240, 220, 255, 0.5) 60%,
+    rgba(255, 250, 240, 1) 100%
+  );
+}
+.bg-gradient-bblue {
+  background: linear-gradient(
+    100deg,
+    rgb(232, 244, 255) 5%,
+    /* Soft light blue */ rgb(228, 255, 255) 98% /* Muted cyan */
+  );
+}
+.bg-gradient-bpurple {
+  background: linear-gradient(
+    100deg,
+    rgb(244, 232, 255) 11%,
+    /* Soft lavender */ rgb(228, 232, 255) 80% /* Light pastel purple */
+  );
+}
+.bg-gradient-soft-blush {
+  background: linear-gradient(
+    200deg,
+    rgb(255, 240, 240) 5%,
+    /* Very light blush pink */ rgb(255, 220, 220) 98% /* Light pink */
+  );
+}
+.bg-gradient-pale-sky {
+  background: linear-gradient(
+    100deg,
+    rgb(255, 240, 248) 10%,
+    /* Very light sky blue */ rgb(207, 231, 250) 92% /* Light pastel blue */
+  );
+}
+.bg-gradient-b {
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 240, 1) 0%,
+    /* Light cream */ rgba(255, 240, 255, 0.8) 25%,
+    /* Light blush pink */ rgba(240, 255, 255, 0.6) 50%,
+    /* Very light aqua */ rgba(240, 240, 255, 0.4) 75%,
+    /* Very light lavender */ rgba(255, 255, 240, 1) 100%
+  ); /* Light cream again */
+}
+.bg-gradient-mint {
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8) 0%,
+    /* Center: semi-transparent white */ rgba(250, 245, 255, 0.7) 30%,
+    /* Soft semi-transparent white-lavender */ rgba(234, 255, 248, 0.6) 60%,
+    /* Slightly deeper semi-transparent lavender */ rgba(255, 228, 228, 0.4) 90%,
+    /* Light lavender with more transparency */ rgba(255, 255, 255, 0.2) 100%
+      /* Light white at the edges with high transparency */
+  );
+}
+.bg-gradient-blue {
+  background: linear-gradient(
+    135deg,
+    /* Angle of the gradient */ rgba(240, 255, 250, 0.7) 0%,
+    /* Softer mint green at the start */ rgba(200, 245, 255, 0.182) 20%,
+    /* Lighter pastel blue-mint */ rgba(210, 235, 255, 0.4) 40%,
+    /* Softer blue with more transparency */ rgba(224, 215, 255, 0.259) 60%,
+    /* Softer lavender tone */ rgba(245, 225, 240, 0.651) 80%,
+    /* Light, faded pink */ rgba(255, 240, 245, 0.9) 100%
+      /* Very light peach-pink at the end */
+  );
+}
+.bg-gradient-text {
+  background: linear-gradient(
+    to right,
+    #ff7eb3,
+    #ff8e65,
+    #7aa8f9,
+    #a28dfb,
+    #ffafff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.my-80 {
+  margin-block: 80px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.py-60 {
+  padding-block: 90px;
+}
+.w-90 {
+  width: 90%;
+}
+.mx-11 {
+  margin-inline: 1px !important;
+}
+.ls-1 {
+  letter-spacing: 0.8px;
+}
+.ls-2 {
+  letter-spacing: 0.6px;
+}
+.ls-3 {
+  letter-spacing: 0.5px;
+}
+.ls-4 {
+  letter-spacing: 0.4px;
+}
+.ls-5 {
+  letter-spacing: 0.1px;
+}
+.w-1 {
+  width: 2%;
+}
+.w-99 {
+  width: 98%;
+}

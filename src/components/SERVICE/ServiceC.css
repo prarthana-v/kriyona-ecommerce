@@ -1,0 +1,24 @@
+@media (max-width: 575.95px) {
+  .services-row {
+    border-left: 0;
+    border-right: 0;
+  }
+}
+@media (max-width: 678px) {
+  .service-detail .name {
+    font-size: 17px;
+    letter-spacing: 0.3px;
+  }
+
+  .service-detail .des {
+    font-size: 14px;
+  }
+
+  .s-title {
+    font-size: 28px;
+  }
+}
+
+.service-detail .name {
+  letter-spacing: 0.3px;
+}

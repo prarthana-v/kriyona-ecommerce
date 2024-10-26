@@ -1,0 +1,117 @@
+/* .parallex-background {
+  background-image: url("/images/afm/download.jpeg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 180%;
+  transform: translate3d(0px, -85.9143px, 0px);
+  background-position-x: 100%;
+}
+.parallex-section {
+  min-height: 315px;
+  position: relative;
+  overflow: hidden;
+} */
+
+.parallex {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.amazon {
+  background-image: url("/images/afm/amazon.webp");
+}
+.meesho {
+  background-image: url("/images/afm/meesho.png");
+}
+.flipkart {
+  background-image: url("/images/afm/flipkart.png");
+}
+.parallex- {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.commerce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.commerce-img {
+  width: 75%;
+  height: auto;
+  border-radius: 10%;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2); /* Darker shadow effect */
+}
+.commerce-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 992px) {
+  .commerce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 20px;
+  }
+  .commerce-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2); /* Darker shadow effect */
+  }
+  .service-ctn {
+    text-align: center;
+  }
+}
+
+.bg-com {
+  background: url("/images/afm/commerce.webp");
+  /* padding: 0px 0; */
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+  background-color: rgba(244, 237, 237, 0.822);
+  background-blend-mode: lighten;
+}
+
+.service-ctn {
+  position: relative; /* Keeps the content above the pseudo-element */
+  z-index: 1;
+  color: #333;
+  width: 95%;
+  height: 100%;
+}
+
+.service-ctn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Slightly more transparent for gloss */
+  border-radius: 15px; /* Match the parent radius */
+  z-index: -1; /* Ensure it's behind the content */
+  pointer-events: none; /* Prevents it from blocking interactions */
+  box-shadow: inset 0 0 30px rgba(237, 236, 236, 0.5); /* Add a subtle inner glow */
+  backdrop-filter: blur(8px); /* Apply blur effect to the background */
+}

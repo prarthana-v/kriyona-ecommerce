@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.menu-link {
+  /* color: #0d0f06 !important; */
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-block: 1px solid #000;
+  padding: 32px 50px;
+  font-size: 16px;
+}
+
+.p-all {
+  padding: 30px 50px;
+}
+
+.bb- {
+  border-block: 1px solid #000;
+}
+
+.br- {
+  border-right: 1px solid #000;
+}
+
+.bl- {
+  border-left: 1px solid #000;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(0px);
+  transition: backdrop-filter 0.3s ease-in-out;
+  background-color: 0.3s ease-in-out;
+}
+
+.header.scrolled {
+  backdrop-filter: blur(2px); /* Increase blur when scrolled */
+  background-color: rgb(250, 245, 255, 0.8);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  color: black;
+}
+
+.bg-aterfall {
+  background: linear-gradient(
+    to bottom,
+    rgb(220, 210, 245) 0%,
+    /* Light lavender at the top */ rgb(235, 225, 255) 50%,
+    /* Transitioning to very light lavender */ rgb(250, 245, 255) 100%
+      /* Almost white starting from the center */
+  );
+}
+
+/* Style for navigation links */
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+/* Hide toggle button by default */
+.nav-toggle {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+/* Large screen styles */
+@media (min-width: 767.99px) {
+  .nav-links {
+    display: flex;
+  }
+}
+
+/* Small screen styles */
+@media (max-width: 767.95px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    background-color: rgb(233, 237, 240, 0.9);
+    padding: 10px 0;
+    transition: all 1s ease-in;
+  }
+
+  .nav-links.open {
+    display: flex;
+    top: 80%;
+  }
+
+  .nav-links ul li {
+    margin: 5px 10px;
+    border: 1px solid #bfc2cb;
+    padding: 10px 0;
+    font-weight: 500;
+  }
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links a {
+    /* padding: 10px 20px; */
+    text-align: center;
+    display: block;
+  }
+  .menu-link {
+    border-bottom: 1px solid #959cb1;
+  }
+}

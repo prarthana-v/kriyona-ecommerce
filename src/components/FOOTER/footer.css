@@ -1,0 +1,39 @@
+.social-icons {
+  /* display: flex; */
+  justify-content: center;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.footer-bottom p {
+  font-size: 0.9em;
+  color: #bbb;
+}
+
+@media (min-width: 992px) {
+  .footer-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .ul-quick-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .b-lg-u {
+    border-top: 1px solid black;
+  }
+}
+@media (max-width: 768px) {
+  .kriyona {
+    font-size: 28.111px;
+  }
+}
+@media (max-width: 991.95px) {
+  .footer {
+    border: 1px solid black;
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+}
